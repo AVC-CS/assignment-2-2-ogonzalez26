@@ -1,18 +1,15 @@
 def main():
-    """
-    ##################################################
-    # Comlete your code here
-    Use the same variables: celsius fahrenheit 
-    ##################################################
-    """
+    # Input temperature in Celsius
+    celsius = float(input("Enter temperature in Celsius: "))
+    
+    # Convert Celsius to Fahrenheit
+    fahrenheit = (celsius * 9 / 5) + 32
+    
+    # Result
+    print(f"{celsius:.2f} Celsius is equal to {fahrenheit:.2f} Fahrenheit.")
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
+    # Return the values 
     return celsius, fahrenheit
-
 
 if __name__ == '__main__':
     main()
